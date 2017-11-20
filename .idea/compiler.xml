@@ -9,13 +9,16 @@
         <module name="spring-cloud-consumer" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-producer" />
+        <module name="spring-cloud-producer2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud" target="1.7" />
       <module name="spring-cloud-consumer" target="1.7" />
+      <module name="spring-cloud-consumer2" target="1.7" />
       <module name="spring-cloud-eureka" target="1.7" />
       <module name="spring-cloud-producer" target="1.7" />
+      <module name="spring-cloud-producer2" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
