@@ -11,8 +11,10 @@
     <modules>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-producer</module>
-        <module>spring-cloud-consumer</module>
+        <module>spring-cloud-consumer-node1</module>
+        <module>spring-cloud-consumer-node2</module>
         <module>spring-cloud-producer2</module>
+        <module>hystrix-dashboard-turbine</module>
     </modules>
 
     <parent>

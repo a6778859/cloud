@@ -8,6 +8,7 @@ public class HelloRemoteHystrix implements HelloRemote{
 
     @Override
     public String hello(@RequestParam(value = "name") String name) {
+        System.out.println("失败");
         return "hello" +name+", this messge send failed ";
     }
 }
